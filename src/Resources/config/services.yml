@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Endroid\Flusher\Flusher: ~
+        public: true
+    Endroid\Flusher\FlusherEntityManager: ~
+        decorates: doctrine.orm.default_entity_manager
