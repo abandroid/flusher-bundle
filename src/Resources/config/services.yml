@@ -4,7 +4,11 @@ services:
         autoconfigure: true
         public: false
 
-    Endroid\Flusher\Flusher: ~
+    Endroid\Flusher\Flusher:
         public: true
-    Endroid\Flusher\FlusherEntityManager: ~
+
+    Endroid\Flusher\FlusherEntityManager:
+        arguments: [ '@Endroid\Flusher\FlusherEntityManager.inner' ]
+        calls:
+            - ['setFlusher', ['@Endroid\Flusher\Flusher']]
         decorates: doctrine.orm.default_entity_manager
