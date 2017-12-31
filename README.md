@@ -1,10 +1,9 @@
-EndroidFlusherBundle
-====================
+# Flusher Bundle
 
 *By [endroid](https://endroid.nl/)*
 
 [![Latest Stable Version](http://img.shields.io/packagist/v/endroid/flusher-bundle.svg)](https://packagist.org/packages/endroid/flusher-bundle)
-[![Build Status](http://img.shields.io/travis/endroid/EndroidFlusherBundle.svg)](http://travis-ci.org/endroid/EndroidFlusherBundle)
+[![Build Status](http://img.shields.io/travis/endroid/flusher-bundle.svg)](http://travis-ci.org/endroid/flusher-bundle)
 [![Total Downloads](http://img.shields.io/packagist/dt/endroid/flusher-bundle.svg)](https://packagist.org/packages/endroid/flusher-bundle)
 [![Monthly Downloads](http://img.shields.io/packagist/dm/endroid/flusher-bundle.svg)](https://packagist.org/packages/endroid/flusher-bundle)
 [![License](http://img.shields.io/packagist/l/endroid/flusher-bundle.svg)](https://packagist.org/packages/endroid/flusher-bundle)
