@@ -2,7 +2,7 @@
     "name": "endroid/flusher-bundle",
     "description": "Endroid Flusher Bundle",
     "keywords": ["endroid", "flusher", "symfony", "bundle", "php"],
-    "homepage": "https://github.com/endroid/EndroidFlusherBundle",
+    "homepage": "https://github.com/endroid/flusher-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
