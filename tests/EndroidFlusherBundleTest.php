@@ -9,12 +9,16 @@
 
 namespace Endroid\FlusherBundle\Tests;
 
-use PHPUnit\Framework\TestCase;
+use Endroid\BundleTest\BundleTestCase;
+use Endroid\Flusher\Flusher;
 
-class EndroidFlusherBundleTest extends TestCase
+class EndroidFlusherBundleTest extends BundleTestCase
 {
-    public function testNoTestsYet(): void
+    public function testServiceExists(): void
     {
-        $this->assertTrue(true);
+        $client = static::createClient();
+        $flusher = $client->getKernel()->getContainer()->get(Flusher::class);
+
+        $this->assertInstanceOf(Flusher::class, $flusher);
     }
 }
